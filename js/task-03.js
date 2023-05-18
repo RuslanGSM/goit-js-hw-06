@@ -15,7 +15,7 @@ const images = [
 
 const galleryList = document.querySelector(".gallery");
 
-const createGalleryItem = ({url, alt}) => {
+const createGalleryItem = ({ url, alt }) => {
   return `li class = "gallery__item"
   <img src = "${url}" alt = "${alt}" class = "gallery__image"> </li>`;
 };
